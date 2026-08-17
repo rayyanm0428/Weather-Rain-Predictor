@@ -7,8 +7,6 @@ data/generate_sample_data.py's synthetic output with actual observed
 weather, in the exact same CSV schema, so nothing downstream (features.py,
 train_baseline.py, train_improved.py) needs to change.
 
-Run this on a machine with real internet access (this environment's sandbox
-can't reach external weather APIs):
 
     python src/fetch_historical_data.py --lat 39.95 --lon -75.16 --years 5
 
