@@ -8,7 +8,7 @@ This is the "API" component of the project: it hits a live endpoint and
 returns fresh data in the same shape as our training data, so the trained
 model can make a prediction on today's actual conditions.
 
-Run this on your own machine (it needs real internet access):
+Run this on your own machine:
     python src/fetch_live_weather.py --lat 39.95 --lon -75.16   # Philadelphia
 
 Swap --lat/--lon for any city. Find coordinates at latlong.net.
